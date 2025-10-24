@@ -124,6 +124,35 @@ _Jawaban:_
 ## - Percobaan 1 : Verifikasi Hasil Percobaan 
 
 ![Verifikasi](./Verifikasi.png)
+
+## - Percobaan 2 : Studi Kasus Nilai Mahasiswa di SIAKAD – Perulangan WHILE
+
+_Pertanyaan:_
+
+1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
+    ```java 
+        if (nilai < 0 || nilai > 100) {
+                System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
+                continue;
+        }
+    ```
+    a. nilai < 0 || nilai > 100
+    b. continue
+2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya
+dituliskan di awal perulangan WHILE?
+3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE
+akan berjalan?
+4. Modifikasi kode program sehingga apabila terdapat mahasiswa yang mendapat nilai A,
+program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
+5. Commit dan push kode program ke Github
+
+## - Percobaan 2 : Verifikasi Hasil Percobaan 
+
+![Verifikasi2](./Verifikasi2.png)
+
+
+
+
  
 
 
