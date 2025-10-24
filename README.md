@@ -58,3 +58,29 @@ _Jawaban:_
     - Nilai tertinggi akan selalu 100
     - Nilai terendah akan selalu 0
     Meskipun sebenarnya tidak ada mahasiswa yang nilainya seperti itu.
+3.  Kode ini berfungsi untuk membandingkan nilai yang baru dimasukkan dengan nilai tertinggi 
+    dan terendah yang sudah ada sebelumnya. Tujuannya untuk mencari nilai tertinggi dan nilai terendah dari semua data yang diinput.
+
+    Alur kerja : 
+    1. Setiap kali pengguna memasukkan nilai mahasiswa, program akan memeriksa dua hal:
+    a. if (nilai > tertinggi)
+    - Memeriksa apakah nilai yang baru dimasukkan lebih tinggi dari nilai tertinggi sebelumnya.
+    - Jika ya, berarti ditemukan nilai yang lebih tinggi dan program mengganti nilai tertinggi dengan nilai baru itu.
+    Contoh:
+    - Sebelumnya nilai tertinggi = 80
+    - Input baru nilai = 85
+    Karena 85 > 80 maka tertinggi sekarang menjadi 85.
+
+    b. if (nilai < terendah)
+    - Memeriksa apakah nilai yang baru dimasukkan lebih rendah dari nilai terendah sebelumnya.
+    - Jika ya, berarti ditemukan nilai yang lebih rendah dan program mengganti nilai terendah dengan nilai baru itu.
+    Contoh:
+    - Sebelumnya nilai terendah = 70
+    - Input baru nilai = 65
+    Karena 65 < 70 → maka terendah sekarang menjadi 65.
+
+    2. Setelah semua nilai dimasukkan (perulangan selesai), variabel tertinggi berisi nilai paling tinggi, dan terendah berisi nilai paling rendah dari seluruh data yang diinputkan. 
+
+     
+
+
