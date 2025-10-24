@@ -182,6 +182,14 @@ _Jawaban:_
         }
     ```
     Artinya : Jika nilai tidak valid akan menampilkan pesan peringatan, kemudian lewati proses (seperti pemeriksaan nilai huruf), dan melanjutkan ke pengulangan mahasiswa.
+2.  Karena i++ berfungsi untuk menambah nilai penghitung (counter) setiap kali satu putaran
+    perulangan selesai.
+    
+    Tujuannya agar:
+    - Nilai i bertambah setelah satu siklus kerja selesai (misalnya setelah input nilai satu mahasiswa).
+    - Kondisi while (i < jml) akan berhenti setelah jumlah pengulangan terpenuhi.
+
+    Jadi, i++ diletakkan di akhir perulangan supaya setiap iterasi berjalan lengkap dulu, baru penghitung naik untuk masuk ke mahasiswa berikutnya.
 
 
 
