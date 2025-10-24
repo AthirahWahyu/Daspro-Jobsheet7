@@ -119,7 +119,12 @@ _Jawaban:_
             sc.close();
         }
     }
-    ``` 
+    ```
+
+## - Percobaan 1 : Verifikasi Hasil Percobaan 
+
+![Verifikasi](./Verifikasi.png)
+ 
 
 
      
