@@ -281,6 +281,9 @@ _Jawaban:_
     Kesimpulan : 
     - Kondisi berhenti: nama pelanggan = "batal"
     - Cara berhenti: menggunakan perintah break di dalam perulangan do-while.
+3.  Penjelasan : 
+    - Fungsi true pada while(true) : Menjadikan perulangan berjalan tanpa batas (infinite loop)
+    - Dihentikan dengan break : Ketika kondisi tertentu terpenuhi (misalnya nama pelanggan = "batal").
 
 
 
