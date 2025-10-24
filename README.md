@@ -266,6 +266,18 @@ inisialisasi dan update?
 
 ![Verifikasi3](./Verifikasi3.png)
 
+_Jawaban:_
+
+1.  Penjelasan : 
+    Jika user/pengguna langsung mengetik "batal" saat pertama kali diminta nama pelanggan:
+    - Program tetap menjalankan isi perulangan sekali (karena sifat do-while).
+    - Lalu menemui kondisi if (namapelanggan.equalsIgnoreCase("batal")), sehingga break dieksekusi.
+    - Setelah itu, keluar dari perulangan.
+
+    Kesimpulan : Walaupun pengguna langsung mengetik “batal”, Perulangan tetap dilakukan satu kali sebelum berhenti.
+
+
+
 
 
 
