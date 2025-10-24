@@ -8,7 +8,7 @@ public class KafeDoWhile4 {
         int kopi;
         int teh;
         int roti;
-        String namapelanggan;
+        String namaPelanggan;
         int hargaKopi = 12000;
         int hargaTeh = 7000;
         int hargaRoti = 20000;
@@ -16,8 +16,8 @@ public class KafeDoWhile4 {
 
         do {
             System.out.print("Masukkan nama pelanggan (ketik 'batal' untuk keluar): ");
-            namapelanggan = sc.nextLine();
-            if (namapelanggan.equalsIgnoreCase("batal")) {
+            namaPelanggan = sc.nextLine();
+            if (namaPelanggan.equalsIgnoreCase("batal")) {
                 System.out.println("Transaksi dibatalkan.");
                 break;
             }
