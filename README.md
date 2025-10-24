@@ -190,6 +190,14 @@ _Jawaban:_
     - Kondisi while (i < jml) akan berhenti setelah jumlah pengulangan terpenuhi.
 
     Jadi, i++ diletakkan di akhir perulangan supaya setiap iterasi berjalan lengkap dulu, baru penghitung naik untuk masuk ke mahasiswa berikutnya.
+3.  Penjelasan:
+    - Nilai awal i = 0
+    - Kondisi perulangan: i < jml → berarti selama i masih lebih kecil dari 19, perulangan akan terus berjalan.
+    - Setiap kali perulangan selesai, i bertambah 1 (i++).
+    - Ketika i menjadi 19, kondisi i < 19 menjadi false, sehingga perulangan berhenti.
+
+    Kesimpulan : Perulangan WHILE akan berjalan sebanyak 19 kali. Karena perulangan dimulai dari 
+    i = 0 dan berhenti sebelum i mencapai 19 sehingga total iterasi = 19 kali (dari 0 sampai 18).
 
 
 
