@@ -251,6 +251,23 @@ _Jawaban:_
 
     ![PesanTambahanNilaiA](./PesanTambahanNilaiA.png) 
 
+## - Percobaan 3 : Studi Kasus Transaksi di Kafe – Perulangan DO-WHILE
+
+_Pertanyaan:_
+
+1. Pada penggunaan DO-WHILE ini, apabila nama pelanggan yang dimasukkan pertama kali
+adalah “batal”, maka berapa kali perulangan dilakukan?
+2. Sebutkan kondisi berhenti yang digunakan pada perulangan DO-WHILE tersebut!
+3. Apa fungsi dari penggunaan nilai true pada kondisi DO-WHILE?
+4. Mengapa perulangan DO-WHILE tersebut tetap berjalan meskipun tidak ada komponen
+inisialisasi dan update?
+
+## - Percobaan 3 : Verifikasi Hasil Percobaan 
+
+![Verifikasi3](./Verifikasi3.png)
+
+
+
 
 
 
