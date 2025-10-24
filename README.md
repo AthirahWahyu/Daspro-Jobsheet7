@@ -275,6 +275,14 @@ _Jawaban:_
     - Setelah itu, keluar dari perulangan.
 
     Kesimpulan : Walaupun pengguna langsung mengetik “batal”, Perulangan tetap dilakukan satu kali sebelum berhenti.
+2.  Saat pengguna/user mengetik “batal” (dengan huruf besar atau kecil apa pun, misalnya “BATAL” 
+    atau "batal"), program akan menjalankan perintah break, yang menghentikan perulangan meskipun kondisi while(true) masih bernilai benar.
+
+    Kesimpulan : 
+    - Kondisi berhenti: nama pelanggan = "batal"
+    - Cara berhenti: menggunakan perintah break di dalam perulangan do-while.
+
+
 
 
 
