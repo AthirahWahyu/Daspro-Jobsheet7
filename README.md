@@ -150,6 +150,39 @@ program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
 
 ![Verifikasi2](./Verifikasi2.png)
 
+_Jawaban:_
+
+1.  a. nilai < 0 || nilai > 100
+    Maksud:
+    Kondisi ini digunakan untuk memeriksa apakah nilai yang dimasukkan berada di luar rentang yang valid, yaitu kurang dari 0 atau lebih dari 100.
+
+    Kegunaan:
+    Simbol || artinya “atau” (operator logika OR).
+    Jadi, kondisi akan benar (true) jika salah satu dari dua syarat terpenuhi:
+    - nilai < 0 → nilai terlalu rendah (negatif)
+    - nilai > 100 → nilai terlalu tinggi
+    
+    Jika kondisi ini benar, maka dianggap nilai tidak valid dan program menampilkan pesan: 
+    Nilai tidak valid. Masukkan lagi nilai yang valid!
+
+    b. continue
+    Maksud:
+    Perintah continue digunakan di dalam perulangan (loop) seperti while atau for.
+
+    Kegunaan:
+    Ketika baris continue; dijalankan, program akan:
+    - Langsung melompat ke awal perulangan berikutnya,
+    - Melewati sisa kode di bawahnya dalam blok loop saat ini.
+
+    pada kode
+    ```java 
+        if (nilai < 0 || nilai > 100) {
+                System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
+                continue;
+        }
+    ```
+    Artinya : Jika nilai tidak valid akan menampilkan pesan peringatan, kemudian lewati proses (seperti pemeriksaan nilai huruf), dan melanjutkan ke pengulangan mahasiswa.
+
 
 
 
