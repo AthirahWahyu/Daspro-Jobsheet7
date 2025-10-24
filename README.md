@@ -47,3 +47,14 @@ _Jawaban:_
     i++
     ``` 
     Penjelasan : Perubahan nilai variabel counter pada setiap putaran perulangan. Setelah satu kali perulangan selesai, nilai i akan bertambah 1. (Misalnya dari 1 → 2 → 3 … hingga 10.)
+2.  Nilai tertinggi = 0
+    Karena 0 adalah nilai terkecil yang mungkin dimasukkan, jadi jika ada nilai lebih besar dari 0, program bisa mencari mana yang paling tinggi.
+
+    Nilai terendah = 100
+    Karena 100 adalah nilai terbesar yang mungkin dimasukkan, jadi jika ada nilai lebih kecil dari 100, program bisa mencari mana yang paling rendah.
+
+    Jika dibalik (tertinggi = 100 dan terendah = 0),
+    hasilnya pasti salah, karena:
+    - Nilai tertinggi akan selalu 100
+    - Nilai terendah akan selalu 0
+    Meskipun sebenarnya tidak ada mahasiswa yang nilainya seperti itu.
