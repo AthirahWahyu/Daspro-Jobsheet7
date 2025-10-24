@@ -284,6 +284,13 @@ _Jawaban:_
 3.  Penjelasan : 
     - Fungsi true pada while(true) : Menjadikan perulangan berjalan tanpa batas (infinite loop)
     - Dihentikan dengan break : Ketika kondisi tertentu terpenuhi (misalnya nama pelanggan = "batal").
+4.  Penjelasan : 
+    Inisialisasi dan update tidak diperlukan karena tidak ada variabel yang perlu  dikontrol untuk menentukan berapa kali perulangan berjalan. Semua kendali ada pada input pengguna dan kondisi break.
+
+    Kesimpulan : 
+    Perulangan tetap berjalan tanpa inisialisasi dan update karena:
+    - Kondisi while(true) membuat loop selalu aktif.
+    - Perulangan dikontrol secara manual dengan break, bukan oleh variabel penghitung seperti i++.
 
 
 
